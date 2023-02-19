@@ -12,7 +12,7 @@ import Home from "../pages/Home"
 
 function Main(props) {
 
-    const URL = "http://127.0.0.1:8000/"
+    const URL = "http://127.0.0.1:8000/food/"
     
     const [food, setFood] = useState([])
 
