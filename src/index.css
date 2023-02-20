@@ -1,19 +1,33 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
-  margin: 0;
-  padding: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
-  height: 10vh;
-  background-color: rgb(41, 143, 143);
+  background-color:#B7D2D7;
+  width: 1028px;
+  height: 150px;
+  text-align: center;
 }
 
 .footer {
-  height: 10vh;
-  background-color: rgb(101, 140, 203);
+  width: 1028px;
+  height: 100px;
+  text-align: center;
+  font-size: 10px;
+  background-color: #EAD584;
 }
 
 main {
-  height: 90vh;
-  background-color: rgb(89, 162, 138);
+  width: 1028px;
+  height: 1000px;
+  background-color: #F4F1E2;
+  text-align: center;
 }
