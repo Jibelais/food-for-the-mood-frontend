@@ -23,7 +23,7 @@ function Edit(props) {
         navigate("/foodmood")
     }
     const removeFood = () => {
-        props.deleteFood(food._id)
+        props.deleteFood(food.id)
         navigate("/foodmood")
     }
 
