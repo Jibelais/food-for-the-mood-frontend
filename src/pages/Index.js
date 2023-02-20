@@ -53,7 +53,7 @@ function Index(props) {
 
 
     return (
-      <main className="index-container content-margin">
+      <main className="index-container">
         <h3 className="title">I am feeling today... </h3>
         <div className = 'mood-container'>
           <Link to={`/foodmood/${randomHappyItem?.id}`}>
