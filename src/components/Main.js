@@ -59,7 +59,7 @@ function Main(props) {
         getFood()
         console.log(food)
 
-    }, [])
+    },[])
    
     return (
         <main>
