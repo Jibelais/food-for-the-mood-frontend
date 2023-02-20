@@ -11,9 +11,10 @@ function Show(props) {
 
   return (
     <div className='content-margin'>
-      <div >
-        <p className='title'>If you are feeling {food.mood} ...</p>
+      <div className='center-container'>
+        <p className='title'>If you are feeling <span id="mood">{food.mood}</span> ...</p>
         <img id = "image" src={food.img} alt={food.food} /><br/>
+        <p id='info'>{food.info}</p>
         <p><span id="click">Click here for recipe </span><br/></p>
            
       </div>

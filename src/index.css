@@ -24,6 +24,16 @@ body {
 #image{
   width: 400px;
 }
+#mood{
+  color:#8498bb;
+  font-weight: 700;
+}
+#info{
+  width:400px;
+  text-align: left;
+  
+
+}
 nav, nav>a, nav>a:link, nav>a:visited{
   background-color:#B7D2D7;
   font-family: 'Amatic SC', cursive;
@@ -52,7 +62,7 @@ main {
 }
 
 .content-margin{
-  margin-top: 100px;
+  margin: 50px;
 }
 
 .index-container{
@@ -74,6 +84,12 @@ main {
   gap: 10px;
   justify-content: center;
   margin-top: 50px;
+}
+.center-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
 }
 .input{
   padding: 10px;
