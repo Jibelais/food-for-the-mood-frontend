@@ -33,9 +33,10 @@ function New(props) {
   };
   return (
     <section className= "content-margin">
+      <p className='title'>Add more food to the mood!</p>
       <form onSubmit={handleSubmit}>
         <input
-          className='name'
+          className='input'
           type="text"
           value={newForm.name}
           name="name"

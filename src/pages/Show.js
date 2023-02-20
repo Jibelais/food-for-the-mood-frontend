@@ -10,9 +10,9 @@ function Show(props) {
   console.log(props.food)
 
   return (
-    <div>
+    <div className='content-margin'>
       <div >
-        <h1>If you are feeling {food.mood} ...</h1>
+        <p className='title'>If you are feeling {food.mood} ...</p>
         <img id = "image" src={food.img} alt={food.food} /><br/>
         <p><span id="click">Click here for recipe </span><br/></p>
            

@@ -1,20 +1,28 @@
 *{
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  background-color: rgb(208, 201, 211);
+  background-color: rgb(248, 245, 249);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.App{
+  background-color: #F4F1E2;
+}
 .header {
   background-color:#B7D2D7;
   width: 1028px;
-  height: 180px;
+  height: 200px;
   text-align: center;
+}
+#logo{
+  margin-top: 10px;
+}
+#image{
+  width: 400px;
 }
 nav, nav>a, nav>a:link, nav>a:visited{
   background-color:#B7D2D7;
@@ -23,7 +31,7 @@ nav, nav>a, nav>a:link, nav>a:visited{
   font-size: 30px;
   display: flex;
   justify-content: center;
-  gap: 130px;
+  gap: 150px;
   color: white;
   text-decoration: none;
 }
@@ -43,17 +51,22 @@ main {
   text-align: center;
 }
 
+.content-margin{
+  margin-top: 100px;
+}
+
 .index-container{
   display: flex; 
   flex-direction: column;
   align-items: center;
 }
 .title{
-  margin-top: 100px;
+  margin: 50px;
   font-size: 40px;
   font-family: 'Amatic SC', cursive;
   letter-spacing: 2px;
 }
+
 .mood-container{
   width:500px;
   display: flex;
@@ -61,4 +74,29 @@ main {
   gap: 10px;
   justify-content: center;
   margin-top: 50px;
+}
+.input{
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  border: 1px solid #EAD584;
+  background-color: #fefff8;
+  border-radius: 5px;
+}
+label{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+#update-button, #delete-button{
+  margin-left: 160px;
+ }
+
+ .box-size{
+  height: 300px;
+ }
+
+textarea{
+  vertical-align: middle;
 }

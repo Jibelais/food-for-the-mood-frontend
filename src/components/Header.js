@@ -7,7 +7,7 @@ function Header() {
             <nav>
             <Link to={`/`}>Home</Link>
             <Link to={`/foodmood`}>Mood</Link>
-            <Link to={`/lessisgreener/add`}>Add Ideas</Link>
+            <Link to={`/foodmood/new`}>Add Ideas</Link>
             </nav>
         </header>
     )
