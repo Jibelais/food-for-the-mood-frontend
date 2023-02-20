@@ -15,7 +15,7 @@ function Show(props) {
         <p className='title'>If you are feeling <span id="mood">{food.mood}</span> ...</p>
         <img id = "image" src={food.img} alt={food.food} /><br/>
         <p id='info'>{food.info}</p>
-        <p><span id="click">Click here for recipe </span><br/></p>
+        <p>Click <a href = {food.recipe} target = "_blank" rel="noreferrer">HERE</a> for the recipe</p>
            
       </div>
       
