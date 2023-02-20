@@ -53,29 +53,31 @@ function Index(props) {
 
 
     return (
-      <div>
+      <main className="index-container">
         <h3 className="title">I am feeling today... </h3>
-        <div>
+        <div className = 'mood-container'>
           <Link to={`/foodmood/${randomHappyItem?.id}`}>
-            <p>Happy</p>
+            <img src="/img/happy.png" alt="happy"></img>
+          </Link>
+           <Link to={`/foodmood/${randomBoredItem?.id}`}>
+            <img src="/img/bored.png" alt="bored"></img>
           </Link>
           <Link to={`/foodmood/${randomStressedItem?.id}`}>
-            <p>Stressed</p>
+            <img src="/img/stressed.png" alt="stressed"></img>
+          </Link>
+           <Link to={`/foodmood/${randomHealthyItem?.id}`}>
+            <img src="/img/healthy.png" alt="happy"></img>
           </Link>
           <Link to={`/foodmood/${randomSadItem?.id}`}>
-            <p>Sad</p>
+            <img src="/img/sad.png" alt="sad"></img>
           </Link>
           <Link to={`/foodmood/${randomLazyItem?.id}`}>
-            <p>Lazy</p>
+            <img src="/img/lazy.png" alt="lazy"></img>
           </Link>
-          <Link to={`/foodmood/${randomBoredItem?.id}`}>
-            <p>Bored</p>
-          </Link>
-          <Link to={`/foodmood/${randomHealthyItem?.id}`}>
-            <p>Healthy</p>
-          </Link>
+         
+         
         </div>
-      </div>
+      </main>
     );
   };
 

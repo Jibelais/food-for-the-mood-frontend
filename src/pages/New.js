@@ -21,7 +21,7 @@ function New(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    props.createTopics(newForm);
+    props.createFood(newForm);
     setNewForm({
         name: "",
         mood: "",
