@@ -75,8 +75,7 @@ function Main(props) {
                     exact path="/foodmood" 
                     element={<Index food = {food} />} />
                 <Route 
-                    path="/foodmood/:id" 
-                    element={<Show food = {food}/>} />
+                    path="/foodmood/:id" pyth                    element={<Show food = {food}/>} />
                 <Route
                     path="/foodmood/new" 
                     element = {<New food = {food} createFood = {createFood} />}/>
