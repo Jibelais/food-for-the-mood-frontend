@@ -18,12 +18,12 @@ function Edit(props) {
 
     const handleSubmit = (event)=>{
         event.preventDefault()
-        props.updateTopics(editForm, food.id)
+        props.updateFood(editForm, food.id)
         console.log(editForm)
         navigate("/foodmood")
     }
-    const removeTopic = () => {
-        props.deleteTopics(food._id)
+    const removeFood = () => {
+        props.deleteFood(food._id)
         navigate("/foodmood")
     }
 
@@ -35,7 +35,7 @@ function Edit(props) {
               type="text"
               value={editForm.mood}
               name="mood"
-              placeholder="topic"
+              placeholder="mood"
               onChange={handleChange}
             />
             </div>
@@ -43,7 +43,7 @@ function Edit(props) {
               Food:<input
               type="text"
               value={editForm.name}
-              name="food"
+              name="name"
               placeholder="food"
               onChange={handleChange}
             /> 
@@ -53,7 +53,7 @@ function Edit(props) {
               Image:<input
               type="text"
               value={editForm.img}
-              name="image"
+              name="img"
               placeholder="image"
               onChange={handleChange}
             />  
@@ -63,7 +63,7 @@ function Edit(props) {
               Info:<input
               type="text"
               value={editForm.info}
-              name="Information"
+              name="info"
               placeholder="Information"
               onChange={handleChange}
             />
@@ -75,13 +75,13 @@ function Edit(props) {
               type="text"
               value={editForm.recipe}
               name="recipe"
-              placeholder="receipe link"
+              placeholder="recipe link"
               onChange={handleChange}
             /> 
             </div>
            
             <div><input id = "update-button"className="input" type="submit" value="Update"/></div>
-            <button id="delete-button" className="input button" onClick = {()=>removeTopic(food.id)}>Delete</button>
+            <button id="delete-button" className="input button" onClick = {()=>removeFood(food.id)}>Delete</button>
 
           </form>
         </section>
