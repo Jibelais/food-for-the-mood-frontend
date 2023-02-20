@@ -20,18 +20,20 @@ function Edit(props) {
         event.preventDefault()
         props.updateFood(editForm, food.id)
         console.log(editForm)
-        navigate("/foodmood")
+        navigate(`/foodmood/${food.id}`)
     }
     const removeFood = () => {
         props.deleteFood(food.id)
-        navigate("/foodmood")
+        navigate(`/foodmood/`)
     }
 
     return(
         <section> 
           <form onSubmit={handleSubmit}>
+            <p className='title'>Make changes to this food</p>
             <div>
-              Mood:<input
+              <label>Mood</label><input
+              className='input'
               type="text"
               value={editForm.mood}
               name="mood"
@@ -40,7 +42,8 @@ function Edit(props) {
             />
             </div>
             <div>
-              Food:<input
+            <label>Food</label><input
+              className='input'
               type="text"
               value={editForm.name}
               name="name"
@@ -50,7 +53,8 @@ function Edit(props) {
             </div>
             
             <div>
-              Image:<input
+            <label>Image</label><input
+              className='input'
               type="text"
               value={editForm.img}
               name="img"
@@ -60,7 +64,8 @@ function Edit(props) {
             </div>
             
             <div>
-              Info:<input
+            <label>Infomation</label><textarea
+              className='input box-size'
               type="text"
               value={editForm.info}
               name="info"
@@ -70,7 +75,7 @@ function Edit(props) {
             </div>
             
             <div>
-              Recipe: <input
+            <label>Recipe</label><input
               className="input"
               type="text"
               value={editForm.recipe}
