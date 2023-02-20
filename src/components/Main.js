@@ -20,7 +20,6 @@ function Main(props) {
         const res = await fetch (URL)
         const data = await res.json()
         setFood(data)
-        console.log(data)
     }
 
     const createFood = async (food) => {
