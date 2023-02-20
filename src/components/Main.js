@@ -37,7 +37,7 @@ function Main(props) {
 
     const updateFood = async (food, id) => {
 
-        await fetch (URL + id, {
+        await fetch (URL + "/" + id, {
             method: "PUT", 
             headers:{
                 "Content-Type": "Application/json", 
@@ -49,7 +49,7 @@ function Main(props) {
 
     const deleteFood = async(id) => {
 
-        await fetch (URL + id, {
+        await fetch (URL + "/" + id, {
             method: "DELETE"
         })
         getFood()
