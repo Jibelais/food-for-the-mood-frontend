@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgb(208, 201, 211);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,8 +13,19 @@ body {
 .header {
   background-color:#B7D2D7;
   width: 1028px;
-  height: 150px;
+  height: 180px;
   text-align: center;
+}
+nav, nav>a, nav>a:link, nav>a:visited{
+  background-color:#B7D2D7;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+  color: white;
+  text-decoration: none;
 }
 
 .footer {
@@ -30,4 +41,24 @@ main {
   height: 1000px;
   background-color: #F4F1E2;
   text-align: center;
+}
+
+.index-container{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  margin-top: 100px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 2px;
+}
+.mood-container{
+  width:500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
 }
