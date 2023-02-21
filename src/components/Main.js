@@ -5,6 +5,7 @@ import Show from "../pages/Show"
 import New from "../pages/New"
 import Edit from "../pages/Edit"
 import Home from "../pages/Home"
+import Admin from "../pages/Admin"
 
 
 
@@ -82,7 +83,9 @@ function Main(props) {
                 <Route
                     path="/foodmood/:id/edit" 
                     element = {<Edit food = {food} updateFood = {updateFood} deleteFood = {deleteFood}/>}/>    
-        
+                 <Route 
+                    exact path="/foodmood/admin" 
+                    element={<Admin food = {food} />} />
             </Routes>
 
 
