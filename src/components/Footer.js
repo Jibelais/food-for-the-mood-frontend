@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="footer">Footer</div>
+        <div className="footer">©2023 Food to the Mood</div>
     )
 }
 

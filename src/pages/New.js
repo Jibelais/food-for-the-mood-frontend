@@ -59,8 +59,8 @@ function New(props) {
           placeholder="img"
           onChange={handleChange}
         />
-        <input
-          className='input'
+        <textarea
+          className='input box-size'
           type="text"
           value={newForm.info}
           name="info"
@@ -76,7 +76,7 @@ function New(props) {
           onChange={handleChange}
         />
         <br/>
-        <input id="add-button" className='input button' type="submit" value="Add" />
+        <input className='input button-color' type="submit" value="Add" />
       </form>
     </section>
   );
