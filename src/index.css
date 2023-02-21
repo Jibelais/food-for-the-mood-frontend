@@ -86,12 +86,29 @@ main {
   background-color: #fefff8;
   border-radius: 5px;
 }
+.button-size{
+  padding: 10px;
+  margin: 10px;
+  width: 90px;
+  border: 1px solid #EAD584;
+  background-color: #fefff8;
+  border-radius: 5px;
+}
+.food-list{
+  display: flex;
+  align-items: center;
+ 
+}
 label{
   display: inline-block;
   width: 150px;
   text-align: right;
 }
-
+.food-list-item{
+  width: 650px;
+  text-align: left;
+  margin-left: 30px;
+}
 .button{
   margin-left: 160px;
   background-color: #EAD584;
@@ -124,4 +141,26 @@ textarea{
 }
 .button-color{
   background-color: #EAD584;
+}
+table {
+  width: 80%;
+  background-color:#F4F1E2;
+  margin-left: 100px;
+  margin-bottom: 1px;
+  border-collapse: collapse;
+}
+.col1{
+  width: 100px;
+  text-align: left;
+}
+.col2{
+  width: 400px;
+  text-align: left;
+}
+.col3{
+  width: 100px;
+}
+
+th {
+  font-weight: bold;
 }

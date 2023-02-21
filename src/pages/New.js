@@ -29,7 +29,7 @@ function New(props) {
         info: "",
         recipe: "",
     });
-    navigate("/foodmood")
+    navigate(`/foodmood/admin`)
   };
   return (
     <section className= "content-margin">
