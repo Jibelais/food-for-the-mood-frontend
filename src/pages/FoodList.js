@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Admin(props) {
+function FoodList(props) {
   const loaded = () => {
     const foodArray = props.food.map((foodItem) => {
       return {
@@ -13,8 +13,6 @@ function Admin(props) {
     const happyFoodArray = foodArray.filter((foodItem) => {
       return foodItem.mood.toLowerCase().includes("happy".toLowerCase());
     });
-
-    
 
     const stressedFoodArray = foodArray.filter((foodItem) => {
       return foodItem.mood.toLowerCase().includes("stressed".toLowerCase());
@@ -36,16 +34,42 @@ function Admin(props) {
       return foodItem.mood.toLowerCase().includes("healthy".toLowerCase());
     });
     
+    function display(food){
+        return(
+        <div className= 'food-list'key={(food.id)}>
+            <table>
+                <tr>
+                    <th className='col1'>{food.mood}</th>
+                    <th className='col2'>{food.name}</th>
+                    <th className='col3'><Link to={`/foodmood/${food.id}/edit`}><button  className="button-size button-color">EDIT</button></Link></th>
+                </tr>
+            </table>
+        </div>)
+    }
+
     return [
+        happyFoodArray.map((food)=>(
+            display(food)
+           )),
+
+        boredFoodArray.map((food)=>(
+        display(food)
+       )),   
+
         stressedFoodArray.map((food)=>(
-        <div key={(food.id)}>
-            <p>{food.mood}: {food.name}</p>
-        </div>  
-       )),
+        display(food)
+        )),
+
+        healthyFoodArray.map((food)=>(
+            display(food)
+            )),
+
        sadFoodArray.map((food)=>(
-        <div key={(food.id)}>
-            <p>{food.name}</p>
-        </div>  
+        display(food)
+       )),
+
+       lazyFoodArray.map((food)=>(
+        display(food)
        ))
        ]
 
@@ -64,4 +88,4 @@ function Admin(props) {
   );
 }
 
-export default Admin;
+export default FoodList;
