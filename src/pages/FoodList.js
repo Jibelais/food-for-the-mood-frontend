@@ -40,7 +40,7 @@ function FoodList(props) {
             <table>
                 <tr>
                     <th className='col1 bold'>{food.mood}</th>
-                    <th className='col2'>{food.name}</th>
+                    <th className='col2'><Link to={`/foodmood/${food.id}`}>{food.name}</Link></th>
                     <th className='col3'><Link to={`/foodmood/${food.id}/edit`}><button  className="button-size button-color">EDIT</button></Link></th>
                 </tr>
             </table>
