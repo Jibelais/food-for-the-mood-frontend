@@ -105,12 +105,12 @@ main {
   text-align: left;
   margin-left: 30px;
 }
-
-.butlabel{
+label{
   display: inline-block;
   width: 150px;
   text-align: right;
-}ton{
+}
+.button{
   margin-left: 160px;
   background-color: #EAD584;
  }
@@ -177,6 +177,9 @@ th {
   flex-direction: column;
   align-content: center;
   gap: 30px;
+  font-size: 20px;
+  line-height:35px;
+  
 }
 #about-img{
   width: 100%;
