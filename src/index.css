@@ -145,6 +145,7 @@ textarea{
   width:400px;
   text-align: left;
   font-family: 'Barlow', sans-serif;
+  line-height:20px;
 }
 .button-color{
   background-color: #EAD584;

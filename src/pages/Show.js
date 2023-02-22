@@ -14,9 +14,9 @@ function Show(props) {
       <div className='center-container'>
         <p className='title'>If you are feeling <span id="mood">{food.mood}</span> ...</p>
         <img id = "image" src={food.img} alt={food.food} /><br/>
-        <h3 id='food-name'>{food.name}</h3>
+        <h3 className="bold">{food.name}</h3>
         <p id='info'>{food.info}</p>
-        <p>Click <a href = {food.recipe} target = "_blank" rel="noreferrer">HERE</a> for the recipe</p>
+        <p className="bold">Click <a href = {food.recipe} target = "_blank" rel="noreferrer">HERE</a> for the recipe</p>
         <Link to={`/foodmood`}><button  className="input button-color">GO BACK TO MOOD</button></Link>
         <Link to={`/foodmood/${food.id}/edit`}><button  className="input button-color">EDIT</button></Link>
       </div> 
