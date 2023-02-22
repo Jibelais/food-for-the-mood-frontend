@@ -4,8 +4,8 @@ import Index from "../pages/Index"
 import Show from "../pages/Show"
 import New from "../pages/New"
 import Edit from "../pages/Edit"
-import Home from "../pages/Home"
-import Admin from "../pages/FoodList"
+import About from "../pages/About"
+import FoodList from "../pages/FoodList"
 
 
 
@@ -68,7 +68,7 @@ function Main(props) {
             <Routes>
                 <Route
                    exact path ="/"
-                   element={<Home/>}
+                   element={<About/>}
                    />
         
                 <Route 
@@ -85,7 +85,7 @@ function Main(props) {
                     element = {<Edit food = {food} updateFood = {updateFood} deleteFood = {deleteFood}/>}/>    
                  <Route 
                     exact path="/foodmood/list" 
-                    element={<Admin food = {food} />} />
+                    element={<FoodList food = {food} />} />
             </Routes>
 
 

@@ -38,6 +38,7 @@ nav, nav>a, nav>a:link, nav>a:visited{
   text-align: center;
   font-size: 11px;
   background-color:#F4F1E2;
+  margin: 100px 0px 100px 0px;
 }
 
 main {
@@ -169,4 +170,14 @@ th {
 
 .bold{
   font-family: 'Roboto', sans-serif;
+}
+.about{
+  margin: 30px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 30px;
+}
+#about-img{
+  width: 100%;
 }
