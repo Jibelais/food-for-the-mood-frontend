@@ -2,11 +2,10 @@
 
 Food to the Mood is an app to provide food suggestions to users to boost their mood. 
 
-#
-#
+
+
 
 ## Team 
-#
 
 ![](public/img/team.png)
 
@@ -32,28 +31,31 @@ Food to the Mood is an app to provide food suggestions to users to boost their m
 
 ![](public/img/trello.png)
 
+
 ## Page flow
 
 ![](public/img/page-flow.png)
 
-#
+
 ## Model
 
 ![](public/img/model.png)
 
-#
+
 
 ## Wireframe 
 
 ![](public/img/wireframe.png)
 
-#
+
 
 ## Interface
 ![](public/img/mood.png)
 ![](public/img/food.png)
 
 ![](public/img/responsive.png)
+
+
 
 ### Technologies Used
 
