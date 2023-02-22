@@ -5,9 +5,10 @@ function Header() {
             <Link to={`/foodmood`}><img id = "logo" src="/img/logo.png"alt="icon"/></Link>
 
             <nav>
-            <Link to={`/`}>Home</Link>
+            <Link to={`/`}>About</Link>
             <Link to={`/foodmood`}>Mood</Link>
             <Link to={`/foodmood/new`}>Add Food</Link>
+            <Link to={`/foodmood/list`}>List</Link>
             </nav>
         </header>
     )

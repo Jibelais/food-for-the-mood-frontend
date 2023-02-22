@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Barlow&family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&&family=Roboto:wght@500&family=Barlow&family=Walter+Turncoat&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -32,17 +32,23 @@ nav, nav>a, nav>a:link, nav>a:visited{
   text-decoration: none;
 }
 
+a, a:visited, a:link{
+  text-decoration: none;
+  color: black;
+}
+
 .footer {
   width: 1028px;
   height: 100px;
   text-align: center;
   font-size: 11px;
   background-color:#F4F1E2;
+  margin: 100px 0px 100px 0px;
 }
 
 main {
   width: 1028px;
-  height: 900px;
+  height: 100vh;
   background-color: #F4F1E2;
   text-align: center;
   font-family: 'Barlow', sans-serif;
@@ -97,17 +103,17 @@ main {
 .food-list{
   display: flex;
   align-items: center;
- 
+}
+
+.food-list-item{
+  width: 650px;
+  text-align: left;
+  margin-left: 30px;
 }
 label{
   display: inline-block;
   width: 150px;
   text-align: right;
-}
-.food-list-item{
-  width: 650px;
-  text-align: left;
-  margin-left: 30px;
 }
 .button{
   margin-left: 160px;
@@ -125,7 +131,8 @@ textarea{
   margin-top: 10px;
 }
 #image{
-  width: 400px;
+  max-height: 600px; 
+  max-width: 400px;
 }
 #mood{
   color:#8498bb;
@@ -148,9 +155,11 @@ table {
   margin-left: 100px;
   margin-bottom: 1px;
   border-collapse: collapse;
+  border-spacing: 1px;
 }
 .col1{
   width: 100px;
+  height: 50px;
   text-align: left;
 }
 .col2{
@@ -163,4 +172,21 @@ table {
 
 th {
   font-weight: bold;
+}
+
+.bold{
+  font-family: 'Roboto', sans-serif;
+}
+.about{
+  margin: 30px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 30px;
+  font-size: 20px;
+  line-height:35px;
+  
+}
+#about-img{
+  width: 100%;
 }
