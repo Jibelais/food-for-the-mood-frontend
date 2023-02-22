@@ -67,12 +67,12 @@ function Main(props) {
 
             <Routes>
                 <Route
-                   exact path ="/"
+                   exact path ="/foodmood/about"
                    element={<About/>}
                    />
         
                 <Route 
-                    exact path="/foodmood" 
+                    exact path="/" 
                     element={<Index food = {food} />} />
                 <Route 
                     path="/foodmood/:id" 
