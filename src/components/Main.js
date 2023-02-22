@@ -84,7 +84,7 @@ function Main(props) {
                     path="/foodmood/:id/edit" 
                     element = {<Edit food = {food} updateFood = {updateFood} deleteFood = {deleteFood}/>}/>    
                  <Route 
-                    exact path="/foodmood/admin" 
+                    exact path="/foodmood/list" 
                     element={<Admin food = {food} />} />
             </Routes>
 

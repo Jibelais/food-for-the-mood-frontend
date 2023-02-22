@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Barlow&family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&&family=Roboto:wght@500&family=Barlow&family=Walter+Turncoat&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -42,7 +42,7 @@ nav, nav>a, nav>a:link, nav>a:visited{
 
 main {
   width: 1028px;
-  height: 900px;
+  height: 100vh;
   background-color: #F4F1E2;
   text-align: center;
   font-family: 'Barlow', sans-serif;
@@ -97,19 +97,19 @@ main {
 .food-list{
   display: flex;
   align-items: center;
- 
 }
-label{
-  display: inline-block;
-  width: 150px;
-  text-align: right;
-}
+
 .food-list-item{
   width: 650px;
   text-align: left;
   margin-left: 30px;
 }
-.button{
+
+.butlabel{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}ton{
   margin-left: 160px;
   background-color: #EAD584;
  }
@@ -148,9 +148,11 @@ table {
   margin-left: 100px;
   margin-bottom: 1px;
   border-collapse: collapse;
+  border-spacing: 1px;
 }
 .col1{
   width: 100px;
+  height: 50px;
   text-align: left;
 }
 .col2{
@@ -163,4 +165,8 @@ table {
 
 th {
   font-weight: bold;
+}
+
+.bold{
+  font-family: 'Roboto', sans-serif;
 }
