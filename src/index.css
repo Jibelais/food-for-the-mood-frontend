@@ -131,7 +131,8 @@ textarea{
   margin-top: 10px;
 }
 #image{
-  width: 400px;
+  max-height: 600px; 
+  max-width: 400px;
 }
 #mood{
   color:#8498bb;
