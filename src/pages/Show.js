@@ -17,7 +17,7 @@ function Show(props) {
         <h3 className="bold">{food.name}</h3>
         <p id='info'>{food.info}</p>
         <p className="bold">Click <a href = {food.recipe} target = "_blank" rel="noreferrer">HERE</a> for the recipe</p>
-        <Link to={`/foodmood`}><button  className="input button-color">GO BACK TO MOOD</button></Link>
+        <Link to={`/`}><button  className="input button-color">GO BACK TO MOOD</button></Link>
         <Link to={`/foodmood/${food.id}/edit`}><button  className="input button-color">EDIT</button></Link>
       </div> 
     </div>
