@@ -32,6 +32,11 @@ nav, nav>a, nav>a:link, nav>a:visited{
   text-decoration: none;
 }
 
+a, a:visited, a:link{
+  text-decoration: none;
+  color: black;
+}
+
 .footer {
   width: 1028px;
   height: 100px;
