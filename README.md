@@ -6,9 +6,7 @@ Food to the Mood is a app to suggest a food selection to users to boost their mo
 
 ![](public/img/team.png)
 
-* Product Manager: Jieun Pivarnik
-* Frontend Lead: Cody Clark
-* Backend Lead: Matthew Subin 
+
 
 ## Repo
 
@@ -48,13 +46,13 @@ Food to the Mood is a app to suggest a food selection to users to boost their mo
 
 
 ## Live link
-
+[https://main--food-to-the-mood.netlify.app/](https://main--food-to-the-mood.netlify.app/)
 
 ## Future Enhancement 
 
 * Model relationship between mood and food 
 * Admin feature
-* 
+* Add more data to avoid repeating suggestion
 
 
 
