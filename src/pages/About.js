@@ -2,7 +2,7 @@ function About() {
     return (
       <div className="about">
         <h1 className='title'>About</h1>
-        <img id = 'about-img' src="https://thumbs.dreamstime.com/b/food-variety-panorama-shot-above-selection-healthy-foods-meat-fish-fruit-vegetables-concept-balanced-diet-207809870.jpg"></img>
+        <img id = 'about-img' src="https://case.edu/medicine/nutrition/sites/case.edu.nutrition/files/styles/hero_one_column/public/2021-05/Fruit%20and%20vegetable%20banner.jpg?h=cc6c6ea4&itok=sr65Fjom"></img>
         <p>
           OMG what do I want to eat?! Have you ever felt hangry with no idea what
           to eat. Food to the Mood is here to solve your indecisiveness! Our dream
