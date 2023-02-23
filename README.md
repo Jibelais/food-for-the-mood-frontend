@@ -28,6 +28,7 @@ Food to the Mood is an app to provide food suggestions to users to boost their m
 
 #
 ## Trello board
+[https://trello.com/b/v6KTdRo0/food-for-the-mood](https://trello.com/b/v6KTdRo0/food-for-the-mood)
 
 ![](public/img/trello.png)
 
